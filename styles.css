@@ -16,7 +16,7 @@ font-family: 'Dosis', sans-serif;
   background-position: top;
   background-size: 100% 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/images/articuno-and-silhouette-of-flygon-2ggpdchobstjsvio.jpg);
+    url(images/articuno-and-silhouette-of-flygon-2ggpdchobstjsvio.jpg);
   background-repeat: no-repeat;
   height: 500px;
 }
@@ -106,8 +106,8 @@ select {
   font-size: 2em;
 }
 .header-c {
-  background: url(/images/articuno-contactheader.png),
-    url(/images/contact-bckgrnd.png);
+  background: url(images/articuno-contactheader.png),
+    url(images/contact-bckgrnd.png);
   background-position: center, top;
   background-size: 45%, cover;
   background-repeat: no-repeat;
@@ -135,7 +135,7 @@ width: 100%;
   background-position: center, top;
   background-size: 100%, cover;
   background-repeat: no-repeat;
-  background-image: url("/images/background-leader.png");
+  background-image: url("images/background-leader.png");
   height: 250px;
   text-align: center; 
 }
@@ -231,8 +231,8 @@ a:hover {
   height: auto;
 }
 .header-mainpage {
-  background: url(/images/dfvlts9-289c0607-85f8-4f55-af0b-3ea9e46fd296.gif),
-    url(/images/northern_lights_polar_bears_bears_203438_3840x2160.jpg);
+  background: url(images/dfvlts9-289c0607-85f8-4f55-af0b-3ea9e46fd296.gif),
+    url(images/northern_lights_polar_bears_bears_203438_3840x2160.jpg);
   background-position: center, top;
   background-size: 70%, cover;
   background-repeat: no-repeat;
