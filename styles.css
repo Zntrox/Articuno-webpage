@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+p {
+font-family: 'Dosis', sans-serif;
+}
+
+/* Hours CSS */
+.header-hours {
+  background-color: rgb(36, 113, 158);
+  background-position: top;
+  background-size: 100% 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/images/articuno-and-silhouette-of-flygon-2ggpdchobstjsvio.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+}
+#table {
+  float: left;
+  padding-top: 20px;
+  text-align: center;
+  width: 50%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  box-shadow: 2px 2px 3px black;
+  margin: 10px 20px 60px 0px;
+}
+#quote {
+ text-align: center;
+ color: white;
+ margin-top: 10px;
+}
+#title {
+  text-shadow: 2px 2px 2px black;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+}
+h1 {
+  color: black;
+}
+#hours {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.day {
+  color: white;
+  background-color: rgb(36, 113, 158);
+}
+.table-section {
+  padding-top: 30px;
+  padding-left: 20px;
+  background-color: white;
+  
+  height: 400px;
+}
+#title {
+  text-shadow: 2px 2px 2px black;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+}
+#hours {
+  margin-left: 10px;
+}
+/*CONTACT CSS*/
+#title-c {
+  color: white;
+  padding-bottom: 10px;
+}
+.contact-section {
+  padding: 40px;
+}
+input[type="text"],
+select {
+  width: 99%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(36, 113, 158);
+  border-radius: 1px;
+  box-sizing: border-box;
+}
+.button-c {
+  background-color: rgb(36, 113, 158);
+  color: #dde4ea;
+  padding: 15px;
+  border-radius: 40px;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: rgb(36, 113, 158);
+}
+
+.header-contact {
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+.header-c {
+  background: url(/images/articuno-contactheader.png),
+    url(/images/contact-bckgrnd.png);
+  background-position: center, top;
+  background-size: 45%, cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.center-c {
+  width: 50%;
+  margin: auto;
+}
+textarea{
+resize: none;
+width: 100%;
+}
+.form-c {
+  background-color: lightgrey;
+  padding: 20px;
+
+}
+/*LEADERSHIP CSS*/
+#body-l {
+  background-repeat: no-repeat;
+  background-size: 1500px 500px;
+}
+.leadership-header {
+  background-position: center, top;
+  background-size: 100%, cover;
+  background-repeat: no-repeat;
+  background-image: url("/images/background-leader.png");
+  height: 250px;
+  text-align: center; 
+}
+.card {
+  /* padding-bottom: 20px; */
+  /* object-fit: contain; */
+  /* max-width: 400px; */
+  text-align: center;
+  /* height: 200px; */
+  width: 200px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 4px double rgb(36, 113, 158);
+}
+span {
+  display: block;
+  width: 100px;
+  padding-top: 50%;
+}
+#title-l {
+  color: white;
+}
+.btn-l {
+  border: none;
+  display: inline-block;
+  color: white;
+  background-color: rgb(36, 113, 158);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.btn-1:hover,
+a:hover {
+  opacity: 0.7;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.leadership {
+  height: 400px;
+  padding: 40px;
+}
+.all-cards {
+  margin: 20px;
+}
+.card img {
+  height: 200px;
+}
+
+/*NAV CSS */
+.nav {
+  text-align: center;
+  font-family: 'Gruppo', sans-serif;
+}
+ul {
+  margin-left: 0px;
+  margin-top: 30px;
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  text-shadow: 2px 2px 2px black;
+  margin-left: 4px;
+  float: left;
+  color: white;
+  border-radius: 5px;
+}
+li a {
+  padding: 2px 6px;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(89, 252, 244);
+  font-size: 20px;
+}
+.nav-bar {
+  color: white;
+  transition: 0.3s;
+}
+/* INDEX CSS */
+.logo {
+  height: auto;
+}
+.header-mainpage {
+  background: url(/images/dfvlts9-289c0607-85f8-4f55-af0b-3ea9e46fd296.gif),
+    url(/images/northern_lights_polar_bears_bears_203438_3840x2160.jpg);
+  background-position: center, top;
+  background-size: 70%, cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+#teamarticuno {
+  margin-top: 10px;
+  color: white;
+  font-size: 30px;
+}
+#quote {
+  color: #dddddd;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.header-content {
+  text-align: center;
+  color: white;
+  
+}
+.video {
+  border-radius: 10px;
+  float: left;
+  margin-right: 15px;
+  border-style: solid;
+  border-color: rgb(36, 113, 158);
+
+}
+.about-section {
+  float: right;
+  padding: 40px;
+  background-color: whitesmoke;
+  border-collapse: collapse;
+}
+.services-table {
+  border-collapse: collapse;
+  margin: 40px 40px 80px 170px;
+  width: 70%;
+  box-shadow: 1px 1px 5px black;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px 10px;
+  width: 20%;
+}
+th {
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.services-section {
+  height: 800px;
+  padding-left: 40px;
+}
+#tr {
+  background-color: rgb(36, 113, 158);
+}
+
+/* FOOTER CSS */
+.footer {
+  background-color: rgb(36, 113, 158);
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+/* BACK TO TOP (ONLY MAIN PAGE) */
+.top {
+  text-decoration: none;
+  padding: 1rem;
+  border: 1px solid rgb(246, 249, 249);
+  background-color: rgb(36, 113, 158);
+  border-radius: 100px;
+  color: white;
+}
+
